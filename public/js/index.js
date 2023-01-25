@@ -33,7 +33,6 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
 //CRIAR CONTA
 document.getElementById("create-form").addEventListener("submit", function(e) {
     e.preventDefault();
-    alert("enviou o form");
 
     const email = document.getElementById("email-create-input").value;
     const password = document.getElementById("password-create-input").value;
