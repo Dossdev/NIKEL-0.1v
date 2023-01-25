@@ -36,7 +36,7 @@ document.getElementById("create-form").addEventListener("submit", function (e) {
     alert("enviou o form");
 
     const email = document.getElementById("email-create-input").value;
-    const password = document.getElementById("password-create-input").value;
+    const passwordCreateInput = document.getElementById("password-create-input").value;
 
     if (email.length < 5) {
         alert("Preencha o campo com um e-mail válido");
