@@ -154,7 +154,7 @@ function getTotal () {
 
 function saveData(data) {
     localStorage.setItem(data.login, JSON.stringify(data));
-}const myModal = new bootstrap.Modal("#transaction-modal");
+}const myModal = new bootstrap.Modal("transactions-modal");
 let logged = sessionStorage.getItem("logged");
 const session = localStorage.getItem("session");
 
