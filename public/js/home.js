@@ -7,7 +7,7 @@ let data = {
 };
 
 document.getElementById("buttom-logout").addEventListener("click", logout);
-document.getElementById("transaction-button").addEventListener("click", function() {
+document.getElementById("transactions-button").addEventListener("click", function() {
     window.location.href = "transactions.html"
 })
 
