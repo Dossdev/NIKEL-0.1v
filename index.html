@@ -86,8 +86,7 @@
             </div>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -95,21 +94,22 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <form id="create-form">
-                        <div class="modal-footer">
+                        <div class="modal-body">
                             <div class="mb-3">
-                                <label for="email-create-input" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email-create-input"
+                                <label for="create-email-input" class="form-label bold-label">E-mail</label>
+                                <input type="email" class="form-control" id="create-email-input"
                                     aria-describedby="emailHelp" required>
-                                <div id="emailHelp" class="form-text">Utilize seu e-mail para criar a conta.</div>
+                                <div id="emailHelp" class="form-text">Utilize seu e-mail para criar sua conta.
+                                </div>
                             </div>
                             <div class="mb-3">
-                                <label for="password-create-input" class="form-label">Senha</label>
-                                <input type="password" class="form-control" id="password-create-input" required>
+                                <label for="create-password-input" class="form-label bold-label">Senha</label>
+                                <input type="password" class="form-control" id="create-password-input" required>
+                                <div id="emailHelp" class="form-text">Utilize uma senha fácil e anote para não esquecer.
+                                </div>
                             </div>
-                            <div id="emailHelp" class="form-text">Utilize uma senha fácil de lembrar, e anote para não
-                                esquecer</div>
-                            <div class="modal-footer">
-                            </div>
+                        </div>
+                        <div class="modal-footer">
                             <button type="button" class="btn btn-secondary button-cancel"
                                 data-bs-dismiss="modal">Cancelar</button>
                             <button type="submit" class="btn button-default">Criar conta</button>
