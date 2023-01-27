@@ -6,7 +6,7 @@ let data = {
     transactions: []
 };
 
-document.getElementById("buttom-logout").addEventListener("click", logout);
+document.getElementById("button-logout").addEventListener("click", logout);
 
 //ADICIONAR LANÇAMENTO
 document.getElementById("transaction-form").addEventListener("submit", function(e) {
